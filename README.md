@@ -7,10 +7,9 @@ The chapter references are to "Pattern Recognition and Machine Learning" written
 Files
 -----------
 The repository contains the following example codes:
-- Bayesian LS (Ch 2)
-- Clustering using k-means and EM (2 and 3 groups in 2D) (Ch 9)
-- Gaussian Process Regression in 1D with user-defined parameters
-- Neural Networks for classifying hand written digits, from Hastie, Tibshirani and Friedman (2009)
-- LS and Nearest neighbor for classifying hand written digits (Ch 3)
-- Sampling from intractable distributions (accept-reject and Metropolis-Hastings) (Ch 11)
-- Variational inference for Bayesian LS (Ch 10)
+- Bayesian LS (Ch 2) using conjugate priors [bayesianLScp.m]
+- Clustering using k-means and EM (2 and 3 groups in 2D) (Ch 9) [clusteringEMnKmeans.m]
+- Gaussian Process Regression in 1D with user-defined parameters [gp_regression]
+- Neural Networks for regression from Hastie, Tibshirani and Friedman (2009) [NeuralN_regression]
+- LS and Nearest neighbor for classifying hand written digits (Ch 3) [zipcodeLS.m] and [zipcodeNearestN.m]
+- Variational inference for Bayesian LS (Ch 10) [bayesianLSvb.m]
